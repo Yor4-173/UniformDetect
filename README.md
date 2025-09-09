@@ -97,7 +97,7 @@ Test the model's performance on the valid set (or another test set that you prep
 ```bash
     python -m mainApp.evaluate \
   --test_dir "data test path" \
-  --model_path ""model path \
+  --model_path "model path" \
   --index_path "galerry path" \
   --labels_path "path to gallery_labels.pkl" \
   --threshold 0.4
