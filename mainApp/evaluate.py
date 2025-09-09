@@ -52,7 +52,7 @@ def evaluate_dataset(test_dir, model, index, labels, device, threshold=0.4, k=1)
             except Exception as e:
                 print(f"Skip {img_path}: {e}")
 
-    print("\n=== Evaluation Results ===")
+    print("\nEvaluation Results")
     print("Accuracy:", accuracy_score(y_true, y_pred))
     print(classification_report(y_true, y_pred, zero_division=0))
 
